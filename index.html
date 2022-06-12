@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="image/png" href="/favicon.png">
+		<title>RWBY Shipping Database</title>
+	</head>
+	<body>
+		<script>navigator.serviceWorker.getRegistrations().then(function(registrations){for(let registration of registrations){registration.unregister();}})</script>
+		<div class="site" id="back">
+		<h1 class="text">RWBY Shipping Database</h1>
+		<p class="text">
+			<a class="button" href="/">Home</a>
+			<a class="button" href="/update_log.html">Update Log</a> |
+			<a class="button3" target="_blank" rel="noopener noreferrer" href="https://forms.gle/Y1pmnmfRt8ztjU8t5">Suggest Ship</a>
+			<a class="button3" target="_blank" rel="noopener noreferrer" href="https://forms.gle/W5YrbBCAeM87maDm8">Report</a> |
+			<a class="button3" href="/ships.txt" download>Raw Ship Data</a>
+		</p>
+		<input type="text" id="searchInput" onkeyup="search(this)" placeholder="Search for ships..">
+		
+		<div id="wrapper">
+		<div class="loader" id="ldr" style="display: none;"></div>
+		</div>
+		<table id="shipTable"></table>
+		</div>
+		<p class="text">Built by Winter Raven with data primarily from the <a href="https://docs.google.com/spreadsheets/d/1_bnr68pepImz1RDq7uJiQraVnDjU2D0vqmrSE85sF_U/edit#gid=1295997636">RWBY Shipchart</a>. 
+		Characters from the show <a href="https://roosterteeth.com/channel/rwby-universe">RWBY</a> by RoosterTeeth.</p>
+		<script src="shipdata.js"></script>
+		<script src="ao3data.js"></script>
+		<script src="tablebuilder.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

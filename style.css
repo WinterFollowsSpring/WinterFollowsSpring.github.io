@@ -1,0 +1,146 @@
+.wikilink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.wikilink:hover {
+  color: #808080;
+}
+
+.wikilink:active {
+  color: #808080;
+}
+
+.derp {
+  color: #000000;
+}
+
+.b2:link, .b2:visited {
+  background-color: #f1f1f1;
+  color: black;
+  border: 1px solid #c0c0c0;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.b2:hover, .b2:active {
+  background-color: #909090;
+  color: white;
+}
+
+.button {
+  background-color: #d1d1d1;
+  box-shadow: 0 5px 0 #909090;
+  color: #505050;
+  font-family: verdana;
+  padding: 0.2em 0.5em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #b0b0b0;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.button3 {
+  background-color: #e0dfdf;
+  box-shadow: 0 5px 0 #cacaca;
+  color: #6b6b6b;
+  font-family: verdana;
+  padding: 0.2em 0.5em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button3:hover {
+  background-color: #cecece;
+  cursor: pointer;
+}
+
+.button3:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.site {
+  background-color: #f8f8f8;
+}
+
+.text {
+  font-family: verdana;
+}
+
+h1 {
+  background-color: #f1f1f1;
+}
+
+h2 {
+  background-color: #eeeeee;
+}
+
+#searchInput {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 50%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 6px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  float: left;
+  font-family: verdana;
+}
+
+#shipTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+  font-family: verdana;
+}
+
+#shipTable th, #shipTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+  font-family: verdana;
+}
+
+#shipTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+  font-family: verdana;
+}
+
+#shipTable tr.header, #shipTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+  font-family: verdana;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  float: left;
+  font-family: verdana;
+}
+
+#wrapper {
+  padding: 0px 0px 0px 12px;
+  float: left;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
