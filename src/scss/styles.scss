@@ -1,0 +1,50 @@
+@import "./variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+@font-face {
+    font-family: 'lulo-clean-w01-one-bold';
+    src: url('/fonts/ Clean\ W01\ One\ Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'spacegrotesk';
+    src: url('/fonts/SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'loftygoals';
+    src: url('/fonts/LoftygoalsRegular-9Y5Xy.woff2') format('woff2');
+}
+
+.space-grotesk-font {
+    font-family: spacegrotesk,sans-serif !important;
+}
+
+.lofty-goals-font {
+    font-family: loftygoals,sans-serif !important;
+}
+
+.lulo-clean-w01-one-bold-font {
+    font-family: lulo-clean-w01-one-bold,sans-serif !important;
+}
+
+body {
+    background-color: $secondary;
+}
+
+.size-increase-hoverable {
+    transition: all 0.1s ease-in-out;
+}
+
+.size-increase-hoverable:hover {
+    transform: scale(1.05);
+    filter: brightness(105%);
+}
+
+.item-selectable {
+    cursor: pointer;
+}
