@@ -11,7 +11,7 @@ const AboutPage = () => (
         <BGTitle>HOW WE GOT HERE</BGTitle>
         <div className="row d-flex justify-content-center">
             <img src={aboutmephoto} alt="" className="col-6 col-xxl-4 img-fluid object-fit-cover d-none d-md-block" />
-            <div className="col-12 col-md-6 col-xxl-4 space-grotesk-font">
+            <div className="col-12 col-md-6 col-xxl-4">
                 <p className="fs-3">BIO</p>
                 <p class="fst-italic">Bonnie Glen Luxury Candles & Gifts LLC is an idea that came about during 2020. It was inspired by nature and the beautiful scenery of Hiawassee, North Georgia.</p>
                 <p class="fst-italic">It’s founder, Yvonne Miller, was born and raised near Oban, Scotland and emigrated to the U.S with her family in 1998.  Atlanta was her home for most of that time but she and her family often visited Hiawassee and surrounding areas many times over the years.</p>

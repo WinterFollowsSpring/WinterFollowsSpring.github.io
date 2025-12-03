@@ -17,13 +17,13 @@ const IndexPage = () => (
       <img src={justlikenatureintended} alt="" className="img-fluid" />
       <div className="position-absolute top-50 start-50 translate-middle text-center w-100">
         <p className="lulo-clean-w01-one-bold-font" style={{ color: '#EDE9E1', fontWeight: 'bold', WebkitTextStroke: '1px #656565', fontSize: '48pt' }}>JUST LIKE NATURE INTENDED</p>
-        <p className="space-grotesk-font" style={{ color: 'white', textShadow: '0px 0px 3px black', letterSpacing: '0.15em', fontSize: '20pt' }}>HAND POURED 100% SOY CANDLES</p>
+        <p style={{ color: 'white', textShadow: '0px 0px 3px black', letterSpacing: '0.15em', fontSize: '20pt' }}>HAND POURED 100% SOY CANDLES</p>
       </div>
     </div>
 
     <BGTitle>SUSTAINABILITY</BGTitle>
     <div className="col-12 d-flex flex-wrap mb-3">
-      <div className="col-12 col-sm-6 d-flex align-items-center space-grotesk-font">
+      <div className="col-12 col-sm-6 d-flex align-items-center">
         <div>
           <p className="fs-3">ALL-NATURAL PRODUCTS</p>
           <ul>
@@ -37,7 +37,7 @@ const IndexPage = () => (
       <img src={doughbowl6wickcandleB} alt="Dough Bowl 6 Wick Candle Image" className="col-12 col-sm-6 object-fit-cover" style={{ objectPosition: '100% 100%' }} width="399" height="327" />
     </div>
 
-    <div className="col-12 position-relative d-none d-md-block space-grotesk-font mb-3" style={{ height: '500px' }}>
+    <div className="col-12 position-relative d-none d-md-block mb-3" style={{ height: '500px' }}>
       <div className="position-absolute top-50 start-60 translate-middle position-relative" style={{ width: '400px', height: 'auto' }}>
         <img src={woodgrain} alt="Wood Grain Texture" className="img-fluid object-fit-cover" />
         <p className="position-absolute top-25 end-20 fs-2">RELAX</p>
@@ -54,7 +54,7 @@ const IndexPage = () => (
         <BGSubtitle>Our rustic and beautiful dough bowls are made from hand carved wood and are reusable and recyclable. Each bowl is unique and sizes may vary slightly.</BGSubtitle>
       </div>
     </div>
-    <div className="col-12 position-relative d-flex flex-wrap justify-content-evenly space-grotesk-font">
+    <div className="col-12 position-relative d-flex flex-wrap justify-content-evenly">
       <img src={tin2wickcandleB} alt="Tin 2 Wick Candle Image" className="img-fluid col-5 d-none d-sm-block" />
       <div className="col-12 col-sm-5">
         <p className="fst-italic">“I absolutely love my candle! Amazing smell that fills my whole room! Great product! I will buy more!”</p>

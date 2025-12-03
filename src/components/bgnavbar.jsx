@@ -8,13 +8,14 @@ export default function BGNavbar({ pageName }) {
   return (
     <Navbar expand="lg">
       <Container className="d-flex flex-column" fluid>
-        <Container className="d-flex justify-content-center" fluid>
-          <Navbar.Brand href="/">
+        <Container className="d-flex justify-content-center position-relative" fluid>
+          <Navbar.Brand style={{height: '240px'}} href="/">
             <img
               src={logo}
               width="286"
               height="240"
               alt="BonnieGlen Luxury Candles Logo"
+              className="position-absolute top-50 start-50 translate-middle"
             />
           </Navbar.Brand>
         </Container>

@@ -95,7 +95,7 @@ function CatalogItem({ item, handleShow }) {
   }
 
   return (
-    <div id={item.id} className="card mb-3 size-increase-hoverable space-grotesk- item-selectable bg-body-tertiary shadow" style={{ width: '18rem' }} onClick={generate_offcanvas}>
+    <div id={item.id} className="card mb-3 mx-2 size-increase-hoverable item-selectable bg-body-tertiary shadow" style={{ width: '18rem' }} onClick={generate_offcanvas}>
       <img src={item.image} alt={item.name} className="card-img-top object-fit-cover" style={imgStyle} />
       <div className="card-body">
         <h5 className="card-title">{item.name}</h5>
@@ -113,7 +113,7 @@ function BGStoreOffcanvas({ show, handleClose }) {
       <Offcanvas.Header closeButton>
         <Offcanvas.Title dangerouslySetInnerHTML={{ __html: offcanvas_title_innerHTML}} className="space-grotesk-font"></Offcanvas.Title>
       </Offcanvas.Header>
-      <Offcanvas.Body dangerouslySetInnerHTML={{__html: offcanvas_body_innerHTML}}className="space-grotesk-font"></Offcanvas.Body>
+      <Offcanvas.Body dangerouslySetInnerHTML={{__html: offcanvas_body_innerHTML}} className="space-grotesk-font"></Offcanvas.Body>
     </Offcanvas>
   );
 }
@@ -128,11 +128,11 @@ function CatalogPage() {
       <BGStoreOffcanvas show={show} handleClose={handleClose} />
       <BGTitle>ALL PRODUCTS</BGTitle>
       <BGSubtitle>Made of natural and organic ingredients</BGSubtitle>
-      <div className="col-12 d-flex flex-wrap justify-content-evenly">
+      <div className="col-12 d-flex flex-wrap justify-content-center">
         {itemData.map(item => <CatalogItem item={item} handleShow={handleShow} />)}
       </div>
       <div className="col-12 d-flex justify-content-center">
-        <p className="w-75 space-grotesk-font text-center"><small>Please Note: This page is not a store front and may not reflect actual inventory or prices. Please contact <a href="mailto:bonnieglenlcg@gmail.com" className="text-decoration-none">bonnieglenlcg@gmail.com</a> for up-to-date information and purchase inquiries. If you are interested in a candle, please check out our Wax & Fragrances page before ordering to choose a fragrance for your candle. Some fragrances are seasonal and may not be available. Shipping available upon request, shipping cost will vary. All products ordered virtually are made to order, a few days will be required before shipping.</small></p>
+        <p className="w-75 text-center"><small>Please Note: This page is not a store front and may not reflect actual inventory or prices. Please contact <a href="mailto:bonnieglenlcg@gmail.com" className="text-decoration-none">bonnieglenlcg@gmail.com</a> for up-to-date information and purchase inquiries. If you are interested in a candle, please check out our Wax & Fragrances page before ordering to choose a fragrance for your candle. Some fragrances are seasonal and may not be available. Shipping available upon request, shipping cost will vary. All products ordered virtually are made to order, a few days will be required before shipping.</small></p>
       </div>
     </BGBase>
   );

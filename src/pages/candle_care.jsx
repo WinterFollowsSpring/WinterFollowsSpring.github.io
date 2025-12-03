@@ -8,7 +8,7 @@ const pageName = "Candle Care";
 
 const CandleCarePage = () => (
   <BGBase pageName={pageName} center>
-    <div className="col-12 col-md-10 space-grotesk-font">
+    <div className="col-12 col-md-10">
       <BGTitle>CANDLE CARE</BGTitle>
       <BGSubtitle>First Burn is the Most Important for Soy Wax!</BGSubtitle>
 
