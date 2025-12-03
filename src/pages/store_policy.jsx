@@ -14,13 +14,10 @@ const StorePolicyPage = () => (
       <div class="fs-5">What do we use your information for?</div>
       <p>Any of the information we collect from you may be used in one of the following ways:</p>
       <ol>
-        <li>To personalize your experience</li>
-        <li>To improve customer service
-          Your information helps us to more effectively respond to your customer service requests and support needs.</li>
-        <li>To process transactions
-          Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested.</li>
-        <li>To send periodic emails
-          The email address you provide for order processing may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information, etc.</li>
+        <li><i>To personalize your experience.</i></li>
+        <li><i>To improve customer service.</i> Your information helps us to more effectively respond to your customer service requests and support needs.</li>
+        <li><i>To process transactions.</i> Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested.</li>
+        <li><i>To send periodic emails.</i> The email address you provide for order processing may be used to send you information and updates pertaining to your order.</li>
       </ol>
       <p class="fs-5">How do we protect your information?</p>
       <p>We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.   We use SSL Secure Shopping for your comfort.  After a transaction, your private information (credit cards, address, financials, etc.) will not be stored on our servers.</p>
@@ -38,7 +35,6 @@ const StorePolicyPage = () => (
       <p class="fs-3">PAYMENT METHODS</p>
       <ul>
         <li><i class="bi bi-credit-card"></i> Credit / Debit Cards (Mastercard, Visa, American Express)</li>
-        <li><i class="bi bi-paypal"></i> PAYPAL</li>
         <li>Venmo</li>
       </ul>
     </div>
