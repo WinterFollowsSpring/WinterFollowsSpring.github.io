@@ -1,49 +1,22 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import BGBase from "../components/bgbase";
+import BGTitle from "../components/bgtitle";
+import CommonHead from "../components/commonhead";
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+const pageName = "Not Found";
 
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <BGBase pageName={pageName} center>
+      <div className="row col-12 col-md-10 col lg-8 text-center d-flex justify-content-center">
+        <BGTitle>PAGE NOT FOUND</BGTitle>
+        <p>Sorry 😔, we couldn't find what you were looking for.</p>
+        <a href="/" role="button" class="btn btn-primary col-12 col-sm-6 col-md-2 mt-3">GO HOME</a>
+      </div>
+    </BGBase>
   )
 }
 
 export default NotFoundPage
 
-export const Head = () => <title>Not found</title>
+export const Head = () => <CommonHead pageName={pageName} />;
