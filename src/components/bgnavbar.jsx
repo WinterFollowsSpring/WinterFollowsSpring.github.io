@@ -7,15 +7,17 @@ import logo from '../images/BonnieGlen_Logo_FINAL.svg';
 export default function BGNavbar({ pageName }) {
   return (
     <Navbar expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="/">
-          <img
-            src={logo}
-            width="286"
-            height="240"
-            alt="BonnieGlen Luxury Candles Logo"
-          />
-        </Navbar.Brand>
+      <Container className="d-flex flex-column" fluid>
+        <Container className="d-flex justify-content-center" fluid>
+          <Navbar.Brand href="/">
+            <img
+              src={logo}
+              width="286"
+              height="240"
+              alt="BonnieGlen Luxury Candles Logo"
+            />
+          </Navbar.Brand>
+        </Container>
         <Navbar.Toggle aria-controls="bonnieglen-navbar-nav" />
         <Navbar.Collapse id="bonnieglen-navbar-nav">
           <Nav className="me-auto nav-underline">
