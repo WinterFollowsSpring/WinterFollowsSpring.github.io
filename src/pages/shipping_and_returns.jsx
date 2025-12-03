@@ -3,7 +3,7 @@ import CommonHead from '../components/commonhead';
 import BGBase from "../components/bgbase";
 import BGTitle from "../components/bgtitle";
 
-const pageName = "Shipping & Fragrances";
+const pageName = "Shipping & Returns";
 
 const ShippingAndFragrancesPage = () => (
   <BGBase pageName={pageName} center>
