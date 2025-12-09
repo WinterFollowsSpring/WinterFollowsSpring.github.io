@@ -48,3 +48,7 @@ body {
 .item-selectable {
     cursor: pointer;
 }
+
+.catalog-item-out-of-stock {
+    filter: brightness(70%);
+}

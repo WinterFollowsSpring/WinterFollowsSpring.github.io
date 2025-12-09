@@ -1,0 +1,75 @@
+[
+    {
+        "id": "heart-dough-bowl-candle",
+        "name": "Heart Dough Bowl Candle",
+        "price": "$29.00",
+        "desc": [
+            "Beautifully hand crafted wood dough bowl with 100% soy wax."
+        ],
+        "image": "../images/heart_dough_bowl_candle.jpg"
+    },
+    {
+        "id": "glass-heart-candle",
+        "name": "Glass Heart Candle",
+        "price": "$25.00",
+        "desc": [
+            "Glass heart 100% soy candle with 3 wicks. Each heart holds 16 oz of high quality soy wax. Select your \"Clean Scents\" fragrance oil from the list to make this an amazing gift for a loved one or just for yourself. Burn time is approximately 40 hrs."
+        ],
+        "image": "../images/glass_heart_candle.jpg"
+    },
+    {
+        "id": "room-freshies",
+        "name": "Room Freshies",
+        "price": "$9.00",
+        "desc": [
+            "100% soy wax melts with 12% fragrance oil load. These room freshies are beautifully decorated and are perfect for smaller spaces like a closet, half bath or drawer. They will last for 1-2 months and can then be broken up placed in a candle wax warmer to extend it's use."
+        ],
+        "note": [
+            "Note: Please do not use them in a car as they will melt if the internal temperature gets too high."
+        ],
+        "image": "../images/freshies.jpg"
+    },
+    {
+        "id": "dough-bowl-candle",
+        "name": "Dough Bowl Candle",
+        "price": "$39.00",
+        "desc": [
+            "Enjoy this beautifully handmade wooden dough bowl candle with 100% natural soy wax. Each bowl measures approx. 10 x 6 x 3. Please note; some may vary slightly in size due to their uniqueness. 16 oz of natural soy wax with 40+ hrs of burning."
+        ],
+        "image": "../images/dough_bowl_3_wick_candle_A.jpg"
+    },
+    {
+        "id": "baguette-bowl-candle",
+        "name": "Baguette Bowl Candle",
+        "price": "$55.00",
+        "desc": [
+            "Enjoy this beautifully handmade wooden baguette bowl candle with 100% natural soy wax. Each bowl measures approx. 20 x 6 x 3\". Please note; some may vary slightly in size due to their uniqueness. 24 oz natural soy wax with 40+ hrs of burning."
+        ],
+        "image": "../images/dough_bowl_6_wick_candle_B.jpg",
+        "imageStyle": {
+            "objectPosition": "100% 100%",
+            "height": "12rem"
+        }
+    },
+    {
+        "id": "candle-tin",
+        "name": "Candle Tin",
+        "price": "$12.00",
+        "desc": [
+            "Elegant candle tins that will add a touch of sparkle to your living space! Each tin holds 7-8 oz of high quality 100% soy wax. Select your fragrance for a wonderful aroma. Burn time is around 20-30 hrs+."
+        ],
+        "note": [
+            "Note: We have switched over to our gold tins for the remainder of the year as our silver tin supplier is no longer in business."
+        ],
+        "image": "../images/tin_2_wick_candle_A.jpg"
+    },
+    {
+        "id": "wax-melts",
+        "name": "Wax Melts",
+        "price": "$6.00",
+        "desc": [
+            "100% soy wax melts with 12% fragrance oil load. These wax melts will fill your room with any fragrance you choose from our list. All fragrances use \"Clean Scents\" which are free from harmful chemicals and are phthalate free. Simply break off a square and place it in your favorite wax melt warmer!"
+        ],
+        "image": "../images/wax_melts.jpg"
+    }
+]
