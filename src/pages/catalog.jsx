@@ -39,7 +39,8 @@ const catalogData = [
         "name": "Room Freshies",
         "price": "$9.00",
         "desc": [
-            "100% soy wax melts with 12% fragrance oil load. These room freshies are beautifully decorated and are perfect for smaller spaces like a closet, half bath or drawer. They will last for 1-2 months and can then be broken up placed in a candle wax warmer to extend it's use."
+            "100% soy wax melts with 12% fragrance oil load. These room freshies are beautifully decorated and are perfect for smaller spaces like a closet, half bath or drawer. They will last for 1-2 months and can then be broken up placed in a candle wax warmer to extend it's use.",
+            "Freshies are only available in Lemon Verbena or White Sage & Lavender. They can last up to 12 months."
         ],
         "note": [
             "Note: Please do not use them in a car as they will melt if the internal temperature gets too high."
@@ -51,7 +52,7 @@ const catalogData = [
         "name": "Dough Bowl Candle",
         "price": "$39.00",
         "desc": [
-            "Enjoy this beautifully handmade wooden dough bowl candle with 100% natural soy wax. Each bowl measures approx. 10 x 6 x 3. Please note; some may vary slightly in size due to their uniqueness. 16 oz of natural soy wax with 40+ hrs of burning."
+            "Enjoy this beautifully handmade wooden dough bowl candle with 100% natural soy wax. Each bowl measures approx. 10 x 6 x 3. Please note; some may vary slightly in size due to their uniqueness. 16 oz of natural soy wax with 60+ hrs of burning."
         ],
         "image": doughbowl3wickcandleA
     },
@@ -60,7 +61,7 @@ const catalogData = [
         "name": "Baguette Bowl Candle",
         "price": "$55.00",
         "desc": [
-            "Enjoy this beautifully handmade wooden baguette bowl candle with 100% natural soy wax. Each bowl measures approx. 20 x 6 x 3\". Please note; some may vary slightly in size due to their uniqueness. 24 oz natural soy wax with 40+ hrs of burning."
+            "Enjoy this beautifully handmade wooden baguette bowl candle with 100% natural soy wax. Each bowl measures approx. 20 x 6 x 3\". Please note; some may vary slightly in size due to their uniqueness. 24 oz natural soy wax with 80+ hrs of burning."
         ],
         "image": doughbowl6wickcandleB,
         "imageStyle": {
@@ -165,12 +166,13 @@ function CatalogPage() {
       <BGStoreOffcanvas show={show} handleClose={handleClose} />
       <BGTitle>ALL PRODUCTS</BGTitle>
       <BGSubtitle>Made of natural and organic ingredients</BGSubtitle>
+      <div className="col-12 d-flex justify-content-center">
+        <p className="w-75 text-center"><i><small><b><u>Please Note:</u></b> This page is not a store front and may not reflect actual inventory or prices. Please contact <a href="mailto:bonnieglenlcg@gmail.com" className="text-decoration-none">bonnieglenlcg@gmail.com</a> for up-to-date information and purchase inquiries. If you are interested in a candle, please check out our Wax & Fragrances page before ordering to choose a fragrance for your candle. Shipping available upon request, shipping cost will vary. All products ordered virtually are made to order, a few days will be required before shipping.</small></i></p>
+      </div>
       <div className="col-12 d-flex flex-wrap justify-content-center">
         {catalogData.map(item => <CatalogItem item={item} handleShow={handleShow} />)}
       </div>
-      <div className="col-12 d-flex justify-content-center">
-        <p className="w-75 text-center"><small>Please Note: This page is not a store front and may not reflect actual inventory or prices. Please contact <a href="mailto:bonnieglenlcg@gmail.com" className="text-decoration-none">bonnieglenlcg@gmail.com</a> for up-to-date information and purchase inquiries. If you are interested in a candle, please check out our Wax & Fragrances page before ordering to choose a fragrance for your candle. Some fragrances are seasonal and may not be available. Shipping available upon request, shipping cost will vary. All products ordered virtually are made to order, a few days will be required before shipping.</small></p>
-      </div>
+      
     </BGBase>
   );
 }
