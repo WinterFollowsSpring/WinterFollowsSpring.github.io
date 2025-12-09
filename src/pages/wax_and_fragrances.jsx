@@ -79,6 +79,16 @@ const fragranceData = [
     Name: 'Fraser Fir',
     Desc: 'Inspired by the popular Christmas tree, our Fraser Fir fragrance oil has mild citrus top notes, earthy undercurrents, and a woody, fir balsam core that makes you think “Christmastime.” Cozy and comforting, Fraser Fir is perfect for setting a festive holiday mood or creating the right ambience for a quiet winter evening by the fire.',
     Type: 'Holiday'
+  },
+  {
+    Name: 'Citrus Agave',
+    Desc: 'A classic sweet citrus blend with zesty orange and lemon peel top notes. Agave nectar enhances the natural sweetness of grapefruit, mandarin and tangerine, while a hint of lye and peach rounds off this tropical, fruity explosion.',
+    Type: 'Summer'
+  },
+  {
+    Name: 'Sandalwood',
+    Desc: 'A complex and sophisticated scent with earthy coriander, amirs, dark musk, amber and woody undertones. This warm smooth scent is a perfect addition to your home at any time of the year.',
+    Type: 'Everyday'
   }
 ]
 
